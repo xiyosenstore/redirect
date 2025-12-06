@@ -2,7 +2,7 @@ export default {
   async fetch(request, env) {
     let url = new URL(request.url);
     if (url.pathname.startsWith('/')) {
-      url.hostname = 'blackshadow.dpdns.org'
+      url.hostname = '162.159.141.236'
       let new_request = new Request(url, request);
       return fetch(new_request);
     }
