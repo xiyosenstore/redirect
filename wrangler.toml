@@ -7,10 +7,6 @@ workers_dev = true
 routes = [
   
   { pattern = "api24-normal.tiktokv.com.redirect.benxx.workers.dev", custom_domain = true },  
-  { pattern = "quiz.vidio.com.redirect.benxx.workers.dev", custom_domain = true },  
-  { pattern = "df.game.naver.com.redirect.benxx.workers.dev", custom_domain = true },
-  { pattern = "ava.game.naver.com.redirect.benxx.workers.dev", custom_domain = true },
-  { pattern = "account.pmang.game.naver.com.redirect.benxx.workers.dev", custom_domain = true },
 
   ]
 
