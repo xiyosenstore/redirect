@@ -5,11 +5,10 @@ compatibility_flags = ["nodejs_compat_v2"]
 workers_dev = true
 
 routes = [
-  
+  { pattern = "redirect-1.benxx.workers.dev", custom_domain = true },  
   { pattern = "api24-normal.tiktokv.com.redirect.benxx.workers.dev", custom_domain = true },  
   { pattern = "ava.game.naver.com.redirect.benxx.workers.dev", custom_domain = true },  
   { pattern = "cache.netflix.com.redirect.benxx.workers.dev", custom_domain = true },
-  { pattern = "redirect.benxx.workers.dev", custom_domain = true },  
 
   ]
 
